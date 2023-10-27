@@ -1,0 +1,11 @@
+{
+    "name": "Shuriken",
+    "version": "1.0.0",
+    "description": "Privacy respecting search engine extension, with functionality",
+    "manifest_version": 3,
+    "author": "SKG",
+    "action":{
+        "default_popup": "popup.html",
+        "default_title": "Shuriken"
+    }
+}
