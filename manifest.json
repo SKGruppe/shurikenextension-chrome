@@ -11,4 +11,18 @@
     "chrome_url_overrides": {
       "newtab": "start.html"
     }
+    "browser_specific_settings": {
+      "gecko": {
+        "strict_min_version": "64.0"
+      }
+    },
+    "chrome_settings_overrides": {
+      "search_provider": {
+        "name": "Shuriken",
+        "keyword": "@sk, sse",
+        "search_url": "https://shuriken.pm/search.php?q={searchTerms}",
+        "favicon_url": "https://shuriken.pm/favicon.ico",
+        "is_default": true
+      }
+    }
 }
